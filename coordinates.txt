@@ -1,0 +1,13 @@
+Points
+
+Origin -> x0 =4.5
+Origin -> xMax = -4.5
+Origin -> y0 = 0.5
+Origin -> yMax = 6.5
+Origin -> z0 = -13.7
+Origin -> zMax = -2.0
+
+
+xSize = 9
+ySize = 6
+zSize = 11.8

@@ -1,0 +1,43 @@
+﻿  Main.cpp
+  Camera.cpp
+  Scene.cpp
+  Cylinder.cpp
+  Cluster.cpp
+  Cone.cpp
+  Cube.cpp
+  Sphere.cpp
+  Light.cpp
+  AmbientLight.cpp
+  PontualLight.cpp
+  LuzRemota.cpp
+  SpotLight.cpp
+  Material.cpp
+  Matrix.cpp
+  Object_.cpp
+  Plane.cpp
+  IntersectionPoint.cpp
+  Triangle.cpp
+  Vector.cpp
+  Generating Code...
+  Compiling...
+  Utils.cpp
+  Generating Code...
+Main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp_glutDestroyWindow referenced in function "void __cdecl onKeyboard(unsigned char,int,int)" (?onKeyboard@@YAXEHH@Z)
+Main.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol __imp_glutAddMenuEntry referenced in function "void __cdecl onMouseButton(int,int,int,int)" (?onMouseButton@@YAXHHHH@Z)
+Main.obj : error LNK2019: unresolved external symbol __imp_glutAddSubMenu referenced in function "void __cdecl onMouseButton(int,int,int,int)" (?onMouseButton@@YAXHHHH@Z)
+Main.obj : error LNK2019: unresolved external symbol __imp_glutAttachMenu referenced in function "void __cdecl onMouseButton(int,int,int,int)" (?onMouseButton@@YAXHHHH@Z)
+Main.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp_glutMouseFunc referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp___glutCreateMenuWithExit referenced in function "void __cdecl onMouseButton(int,int,int,int)" (?onMouseButton@@YAXHHHH@Z)
+C:\Users\ferna\Downloads\Glew and Glut\freeglut\lib\freeglut.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\lib\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\ferna\workspace\ufc\cg\x64\Release\CGProject.exe : fatal error LNK1120: 16 unresolved externals

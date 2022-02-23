@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{19D7483C-FB06-44CB-863B-909AEB2EC308}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\include;C:\Users\ferna\Downloads\Glew and Glut\freeglut\include;C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\include;C:\Users\ferna\Downloads\Glew and Glut\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\lib;C:\Users\ferna\Downloads\Glew and Glut\freeglut\lib;C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\lib;C:\Users\ferna\Downloads\Glew and Glut\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\include;C:\Users\ferna\Downloads\Glew and Glut\freeglut\include;C:\Users\dougl\Downloads\Glew and Glut\glew-1.11.0\include;C:\Users\dougl\Downloads\Glew and Glut\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\lib;C:\Users\ferna\Downloads\Glew and Glut\freeglut\lib;C:\Users\dougl\Downloads\Glew and Glut\glew-1.11.0\lib;C:\Users\dougl\Downloads\Glew and Glut\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\include;C:\Users\ferna\Downloads\Glew and Glut\freeglut\include;C:\Users\dougl\Downloads\Glew and Glut\glew-1.11.0\include;C:\Users\dougl\Downloads\Glew and Glut\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\lib;C:\Users\ferna\Downloads\Glew and Glut\freeglut\lib;C:\Users\dougl\Downloads\Glew and Glut\glew-1.11.0\lib;C:\Users\dougl\Downloads\Glew and Glut\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\include;C:\Users\ferna\Downloads\Glew and Glut\freeglut\include;C:\Users\dougl\Downloads\Glew and Glut\glew-1.11.0\include;C:\Users\dougl\Downloads\Glew and Glut\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\ferna\Downloads\Glew and Glut\glew-1.11.0\lib;C:\Users\ferna\Downloads\Glew and Glut\freeglut\lib;C:\Users\dougl\Downloads\Glew and Glut\glew-1.11.0\lib;C:\Users\dougl\Downloads\Glew and Glut\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Utils\Utils.cpp" />
+    <ClCompile Include="Utils\Camera.cpp" />
+    <ClCompile Include="Utils\Scene.cpp" />
+    <ClCompile Include="Utils\Cylinder.cpp" />
+    <ClCompile Include="Utils\Cluster.cpp" />
+    <ClCompile Include="Utils\Cone.cpp" />
+    <ClCompile Include="Utils\Cube.cpp" />
+    <ClCompile Include="Utils\Sphere.cpp" />
+    <ClCompile Include="Utils\Light.cpp" />
+    <ClCompile Include="Utils\AmbientLight.cpp" />
+    <ClCompile Include="Utils\PontualLight.cpp" />
+    <ClCompile Include="Utils\SpotLight.cpp" />
+    <ClCompile Include="Utils\Material.cpp" />
+    <ClCompile Include="Utils\Matrix.cpp" />
+    <ClCompile Include="Utils\Object_.cpp" />
+    <ClCompile Include="Utils\Plane.cpp" />
+    <ClCompile Include="Utils\IntersectionPoint.cpp" />
+    <ClCompile Include="Utils\Triangle.cpp" />
+    <ClCompile Include="Utils\Vector.cpp" />
+    <ClCompile Include="bitmap\Bitmap.cpp" />
+    <ClCompile Include="CenarioOpenGL.cpp" />
+    <ClCompile Include="out\build\x64-debug\cmakefiles\3.21.21080301-msvc_2\compileridcxx\CMakeCXXCompilerId.cpp" />
+    <ClCompile Include="out\build\x64-debug\cmakefiles\3.21.21080301-msvc_2\compileridc\CMakeCCompilerId.c" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\Utils.hpp" />
+    <ClInclude Include="Utils\Camera.hpp" />
+    <ClInclude Include="Utils\Scene.hpp" />
+    <ClInclude Include="Utils\Cylinder.hpp" />
+    <ClInclude Include="Utils\Cluster.h" />
+    <ClInclude Include="Utils\Cone.hpp" />
+    <ClInclude Include="Utils\Cube.hpp" />
+    <ClInclude Include="Utils\Sphere.hpp" />
+    <ClInclude Include="Utils\Light.hpp" />
+    <ClInclude Include="Utils\AmbientLight.hpp" />
+    <ClInclude Include="Utils\PontualLight.hpp" />
+    <ClInclude Include="Utils\SpotLight.hpp" />
+    <ClInclude Include="Utils\Material.hpp" />
+    <ClInclude Include="Utils\Matrix.hpp" />
+    <ClInclude Include="Utils\Object_.hpp" />
+    <ClInclude Include="Utils\Plane.hpp" />
+    <ClInclude Include="Utils\IntersectionPoint.hpp" />
+    <ClInclude Include="Utils\Triangle.hpp" />
+    <ClInclude Include="Utils\Vector.hpp" />
+    <ClInclude Include="bitmap\Bitmap.hpp" />
+    <ClInclude Include="bitmap\BitmapHeaderFile.h" />
+    <ClInclude Include="bitmap\BitmapHeaderInfo.h" />
+    <ClInclude Include="out\build\x64-debug\cmakefiles\showincludes\foo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="out\build\x64-debug\cmakefiles\3.21.21080301-msvc_2\CMakeDetermineCompilerABI_C.bin" />
+    <None Include="out\build\x64-debug\cmakefiles\3.21.21080301-msvc_2\CMakeDetermineCompilerABI_CXX.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="coordinates.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

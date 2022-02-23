@@ -1,0 +1,27 @@
+﻿  Main.cpp
+  AmbientLight.cpp
+  Camera.cpp
+  Cluster.cpp
+  Cone.cpp
+  Cube.cpp
+  Cylinder.cpp
+  IntersectionPoint.cpp
+  Light.cpp
+  Material.cpp
+  Matrix.cpp
+  Object_.cpp
+  Plane.cpp
+  PontualLight.cpp
+  Scene.cpp
+  Sphere.cpp
+  SpotLight.cpp
+  Triangle.cpp
+  Utils.cpp
+  Vector.cpp
+  Generating Code...
+  Compiling...
+  CMakeCXXCompilerId.cpp
+  Generating Code...
+  CMakeCCompilerId.c
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  CGProject.vcxproj -> C:\Users\ferna\workspace\ufc\cg\Release\CGProject.exe
